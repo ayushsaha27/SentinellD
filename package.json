@@ -1,0 +1,12 @@
+{
+  "name": "sentinel-id-sih2026",
+  "version": "1.0.0",
+  "description": "SIH 2026 PS 26188 - AI-Based Fake Identity & Document Screening System",
+  "scripts": {
+    "start": "concurrently \"cd backend && node server.js\" \"cd frontend && npm run dev\"",
+    "install-all": "npm install && cd backend && npm install && cd ../frontend && npm install"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
