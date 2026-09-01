@@ -1,0 +1,70 @@
+{
+  "officers": [
+    {
+      "badgeId": "SSB-4421",
+      "password": "password123",
+      "name": "Insp. V. Sharma",
+      "rank": "Inspector",
+      "checkpoint": "Post 04 - Raxaul Checkpoint"
+    },
+    {
+      "badgeId": "SSB-1089",
+      "password": "password123",
+      "name": "Sub-Insp. A. Singh",
+      "rank": "Sub-Inspector",
+      "checkpoint": "Post 01 - Petrapole Checkpoint"
+    },
+    {
+      "badgeId": "SSB-9900",
+      "password": "super123",
+      "name": "Chief Insp. R. K. Varma",
+      "rank": "Chief Supervisor",
+      "checkpoint": "Central Command"
+    }
+  ],
+  "travelerBiometrics": [
+    {
+      "id": "DS-LFW-PAIR-101",
+      "name": "ABHISHEK CHATTERJEE",
+      "docNumber": "Z9482104",
+      "countryCode": "IND",
+      "nationality": "IND",
+      "dob": "1991-03-15",
+      "gender": "M",
+      "facePhotoUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
+      "documentPhotoUrl": "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=800&q=80",
+      "biometricHash": "BIO_VECTOR_128D_LFW_IND_901284",
+      "enrolledAt": "2026-09-01 23:40:00",
+      "status": "LFW Authentic Biometric Match"
+    },
+    {
+      "id": "DS-LFW-PAIR-102",
+      "name": "SANTOSH THAPA",
+      "docNumber": "NPL-8812903",
+      "countryCode": "NPL",
+      "nationality": "NPL",
+      "dob": "1988-11-20",
+      "gender": "M",
+      "facePhotoUrl": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=400&q=80",
+      "documentPhotoUrl": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80",
+      "biometricHash": "BIO_VECTOR_128D_LFW_NPL_440192",
+      "enrolledAt": "2026-09-01 23:40:00",
+      "status": "LFW Authentic Biometric Match"
+    }
+  ],
+  "auditTrail": [
+    {
+      "verificationId": "VREF-5175",
+      "travelerName": "AYUSH SAHA",
+      "docType": "Passport",
+      "riskLevel": "high",
+      "riskScore": 88,
+      "outcome": "Flagged (Secondary)",
+      "timestamp": "2026-09-01 18:15:45",
+      "officer": "Insp. V. Sharma",
+      "checkpointId": "Post 04 - Raxaul Checkpoint",
+      "blockchainHash": "0x70bc66e4fa25313d043dc5ffe898a9b983acfe8b3fc4eb384d6529c2ec46f5ea"
+    }
+  ],
+  "reviewQueue": []
+}

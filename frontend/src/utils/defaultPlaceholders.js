@@ -1,0 +1,6 @@
+// Official Neutral Government Placeholder Icons (SVG Data URIs)
+// Replaces external stock photos with clean, offline-ready vector graphics for low-spec PCs
+
+export const DEFAULT_DOCUMENT_PLACEHOLDER = `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="400" height="260" viewBox="0 0 400 260" fill="%230B2545"><rect width="400" height="260" rx="12" fill="%230B2545"/><rect x="20" y="20" width="360" height="220" rx="8" fill="%2313315C" stroke="%23FFC300" stroke-width="2"/><circle cx="80" cy="90" r="35" fill="%23C7D6E8"/><rect x="140" y="60" width="220" height="14" rx="4" fill="%23FFC300"/><rect x="140" y="85" width="170" height="10" rx="3" fill="%23FFFFFF"/><rect x="140" y="105" width="140" height="10" rx="3" fill="%23FFFFFF"/><rect x="40" y="150" width="320" height="24" rx="4" fill="%230B2545"/><text x="180" y="215" font-family="monospace" font-size="13" font-weight="bold" fill="%23FFC300" text-anchor="middle">PASSPORT / TRAVEL DOCUMENT</text></svg>`;
+
+export const DEFAULT_FACE_PLACEHOLDER = `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200" fill="%2313315C"><circle cx="100" cy="100" r="95" fill="%2313315C" stroke="%23FFC300" stroke-width="4"/><circle cx="100" cy="75" r="35" fill="%23C7D6E8"/><path d="M 40,165 C 40,125 160,125 160,165 Z" fill="%23C7D6E8"/></svg>`;
